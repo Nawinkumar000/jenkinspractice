@@ -26,13 +26,6 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    
-    <dependency>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-war-plugin</artifactId>
-      <version>3.4.0</version>
-      <type>maven-plugin</type>
-   </dependency>
 
   </dependencies>
 
@@ -78,6 +71,14 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        
+        <plugin>
+           <groupId>org.apache.maven.plugins</groupId>
+           <artifactId>maven-war-plugin</artifactId>
+           <version>3.3.1</version>
+        </plugin>
+        
+
       </plugins>
     </pluginManagement>
   </build>
