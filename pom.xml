@@ -27,6 +27,18 @@
       <scope>test</scope>
     </dependency>
 
+  <dependency>
+  <groupId>org.wso2.orbit.javax.servlet.jsp.jstl</groupId>
+  <artifactId>jstl</artifactId>
+  <version>1.2.2.wso2v1</version>
+  <type>bundle</type>
+  </dependency>
+  <dependency>
+  <groupId>taglibs</groupId>
+  <artifactId>standard</artifactId>
+  <version>1.1.2</version>
+  </dependency>
+
   </dependencies>
 
   <build>
